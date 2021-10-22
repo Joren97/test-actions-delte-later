@@ -22,4 +22,4 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore **/*/HelloWorld.csproj
     - name: Build
-      run: dotnet build --no-restore HelloWorld/HelloWorld/HelloWorld.csproj
+      run: dotnet build --no-restore **/*/HelloWorld.csproj
